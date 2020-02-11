@@ -6,7 +6,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class RetrofitHelper {
     public static Retrofit getRetrofit(){
         return new Retrofit.Builder()
-                            .baseUrl("http://192.168.0.63:9090/")
+                            .baseUrl("Your Ip Addr")
                             .addConverterFactory(GsonConverterFactory.create())
                             .build();
     }
